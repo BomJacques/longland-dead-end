@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JUCERPROJECT id="L0nGl4nd" name="LonglandDeadEnd" projectType="audioplug" version="1.0.0"
+              juceFolder="C:/SDK/JUCE"
+              bundleIdentifier="com.openai.longlanddeadend" companyName="OpenAI"
+              companyCopyright="OpenAI" useAppConfig="0" addUsingNamespaceToJuceHeader="1"
+              jucerFormatVersion="1" pluginName="LONGLAND DEAD END"
+              pluginDesc="Dreamy rolling-memory afterimage processor" pluginManufacturer="OpenAI"
+              pluginManufacturerCode="OAI1" pluginCode="LDED" pluginChannelConfigs="{2,2}"
+              pluginIsSynth="0" pluginWantsMidiIn="0" pluginProducesMidiOut="0" pluginIsMidiEffect="0"
+              pluginEditorRequiresKeys="0" pluginAUExportPrefix="LDED" pluginVST3Category="Fx"
+              pluginAAXCategory="2" pluginAAXIdentifier="com.openai.longlanddeadend">
+  <MAINGROUP id="main" name="LonglandDeadEnd">
+    <GROUP id="source" name="Source">
+      <FILE id="processorh" name="PluginProcessor.h" compile="0" resource="0" file="Source/PluginProcessor.h"/>
+      <FILE id="processorcpp" name="PluginProcessor.cpp" compile="1" resource="0" file="Source/PluginProcessor.cpp"/>
+      <FILE id="editorh" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+      <FILE id="editorcpp" name="PluginEditor.cpp" compile="1" resource="0" file="Source/PluginEditor.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <VS2022 targetFolder="Builds/VisualStudio2022" smallIcon="" bigIcon=""
+            extraCompilerFlags="/w44265 /w45038 /w44062">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" isDebug="1" targetName="LonglandDeadEnd"/>
+        <CONFIGURATION name="Release" isDebug="0" optimisation="3" targetName="LonglandDeadEnd"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_plugin_client" path="C:/SDK/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="C:/SDK/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="C:/SDK/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="C:/SDK/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="C:/SDK/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="C:/SDK/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="C:/SDK/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="C:/SDK/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="C:/SDK/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2022>
+    <VS2026 targetFolder="Builds/VisualStudio2026" smallIcon="" bigIcon=""
+            extraCompilerFlags="/w44265 /w45038 /w44062">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" isDebug="1" targetName="LonglandDeadEnd"/>
+        <CONFIGURATION name="Release" isDebug="0" optimisation="3" targetName="LonglandDeadEnd"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_plugin_client" path="C:/SDK/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="C:/SDK/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="C:/SDK/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="C:/SDK/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="C:/SDK/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="C:/SDK/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="C:/SDK/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="C:/SDK/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="C:/SDK/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2026>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+</JUCERPROJECT>
